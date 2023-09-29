@@ -1,0 +1,62 @@
+body, html {
+  color: #000000!important;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  background-color: #1e0939 !important;
+  padding: 15px;
+}
+.btn-primary {
+  background: linear-gradient(45deg, #661794, #890ac0)!important;
+  border: none!important;
+}
+.btn-signup {
+  background: linear-gradient(45deg, #661794, #890ac0)!important;
+  border: none!important;
+}
+.btn-signin:hover {
+  background: linear-gradient(45deg, #370a8c, #41158c)!important;
+}
+.btn-signup2 {
+  margin: 10px !important;
+  margin-top: -5px !important;
+  color: white !important;
+  border-color: white !important;
+}
+.btn-signup2:hover {
+  background: linear-gradient(45deg, #43079c, #610ece)!important;
+  border-color:#610ece !important;
+}
+.forgot-pass {
+  margin-bottom: 20px !important;
+}
+.btn-signup:hover {
+  background: linear-gradient(45deg, #400188, #610ece)!important;
+}
+.alert {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #8b41ec;
+  color: white;
+  border: none;
+}
+
+::placeholder {
+  color: white;
+}
+.bg-dark .bg-secondary::placeholder {
+  color: white;  /* make placeholder text white */
+  opacity: 1;    /* make sure the placeholder is fully opaque */
+}
+/* Assuming you have a global.css or similar file */
+.dark-bg {
+   /* You can adjust this to a color that suits your design */
+  color: white;  /* Default text color for items in .dark-bg */
+}
+
+.gradient-custom-2 {
+  /* Example gradient, replace with your preferred gradient */
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+}

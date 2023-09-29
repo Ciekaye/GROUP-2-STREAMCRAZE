@@ -1,0 +1,460 @@
+.home {
+    min-height: 100vh;
+}
+
+.sidebar {
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    background-image: url('../../public/rectangle-185@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.logo-item {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sidebar-footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.home-child {
+    position: absolute;
+    top: 0;
+    height: 70vh; /* or your desired height */
+    width: 100vw;
+  }
+
+  .sci-fi-movie {
+    position: absolute;
+    top: 292px;
+    left: 306px;
+    font-size: var(--font-size-sm);
+    line-height: 20px;
+  }
+  .watch-now {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .watch-now-wrapper {
+    position: absolute;
+    top: 348px;
+    left: 306px;
+    border-radius: var(--br-sm);
+    background-color: #6100c2;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-mid) var(--padding-5xl);
+    font-size: var(--font-size-base);
+  }
+  .avatar-the-way {
+    position: absolute;
+    top: 224px;
+    left: 306px;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 600;
+  }
+  .continue-watching {
+    position: absolute;
+    top: 904px;
+    left: 321px;
+  }
+  .movies,
+  .series,
+  .watch-now1 {
+    position: absolute;
+    top: 496px;
+    left: 319px;
+  }
+  .movies,
+  .series {
+    top: 0;
+    left: 0;
+    line-height: 18px;
+    font-weight: 500;
+    display: inline-block;
+    width: 66.5px;
+    height: 21px;
+  }
+  .series {
+    left: 103.83px;
+    width: 57.17px;
+  }
+  .group-child,
+  .movies-parent {
+    position: relative;
+    top: 9px;
+    left: 0;
+    width: 161px;
+    height: 21px;
+  }
+  .group-child {
+    top: 0;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+  }
+  .tom {
+    position: absolute;
+    top: 11px;
+    left: 46.21px;
+    line-height: 18px;
+    font-weight: 500;
+    display: inline-block;
+    width: 40.36px;
+    height: 20.18px;
+  }
+  .ellipse-parent,
+  .search-icon {
+    position: absolute;
+    top: 0;
+    left: 62.79px;
+    width: 86.58px;
+    height: 38px;
+  }
+  .search-icon {
+    top: 1px;
+    left: 0;
+    width: 33.64px;
+    height: 33.64px;
+    overflow: hidden;
+  }
+  .group-container,
+  .group-parent {
+    position: absolute;
+    top: 0;
+    left: 934px;
+    width: 149.36px;
+    height: 38px;
+  }
+  .group-parent {
+    position: fixed;
+    z-index: 9999;
+
+    left: 285px;
+    width: 100%;
+    height: 70px;
+    background-color: #6100c2;
+    display: flex;
+    font-size: var(--font-size-lg);
+  }
+  .card7-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    width: 348px;
+    height: 209px;
+    object-fit: cover;
+  }
+  .heart-icon1 {
+    position: relative;
+    width: 14.22px;
+    height: 14.22px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .heart-container {
+    position: absolute;
+    top: 20px;
+    left: 296px;
+    border-radius: var(--br-4xs-3);
+    background: linear-gradient(98.85deg, #fff, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(11.85px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8.88888931274414px;
+  }
+  .card5,
+  .card6,
+  .card7 {
+    position: absolute;
+    top: 981px;
+    left: 1055px;
+    width: 348px;
+    height: 209px;
+  }
+  .card5,
+  .card6 {
+    left: 683px;
+  }
+  .card5 {
+    left: 311px;
+  }
+  .home {
+    position: relative;
+    background-color: hsl(273, 100%, 16%);
+    width: 100%;
+    height: 500vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    color: var(--color);
+    font-family: var(--font-poppins);
+  }
+  .movie-div {
+    position: absolute;
+    left: 280px;
+    top: 586px;
+    z-index: 2;
+    /* display: flex; */
+  }
+  .parent-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+  }
+  .movie-list {
+    flex: 1 1 calc(16.6667% - 10px);
+    min-width: 250px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .movie-list .card4, .movie-list .card4 .card4-child {
+    height: 380px;
+  }
+  .movie-list .card4 .card4-child {
+    position: relative;
+  }
+  .movie-list .card4 .card4-item {
+    position: absolute;
+    top: auto !important;
+    bottom: 0 !important;
+  }
+  .movie-list .card4 .house-of-gucci {
+    top: auto !important;
+    bottom: 40px;
+  }
+  .movie-list .card4 .drama {
+    top: auto !important;
+    bottom: 20px;
+  }
+  .movie-list .card4, .movie-list .card4 .card4-child, .movie-list .card4 .card4-item{
+    width: 250px !important;
+  }
+  .btn-primary.movies {
+    background-color: #007bff; /* Bootstrap's primary blue */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary.series {
+    background-color: #FF0000; /* Primary Red */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Add hover effects for the buttons for better interactivity */
+.btn-primary.movies:hover {
+    background-color: #0056b3!important; /* A darker blue */
+}
+
+.btn-primary.series:hover {
+    background-color: #cc0000; /* A darker red */
+}
+
+.buttons-wrapper {
+  position: fixed;
+  bottom: 5%;  
+  left: 50%;  
+  transform: translate(-50%, 50%); 
+  display: flex;  
+  gap: 20px;  
+  z-index: 1000; 
+}
+
+.back-to-top-button, .show-more-button {
+  border-radius: 15px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-to-top-button {
+  background-color: #333; 
+  color: white;
+}
+
+.show-more-button {
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.show-more-button:hover {
+  background-color: #0056b3!important;
+}
+
+.navbar {
+  display: fixed;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(45, 0, 82, 0.5) !important;
+  padding: 10px 50px 10px 304px !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.navbar-left, .navbar-center, .navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.account-username {
+  font-size: 18px !important;
+}
+
+.search-input {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+}
+
+.account-icon {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+}
+
+.account-name {
+  color: white;
+  font-weight: 500;
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.custom-full-width {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.nav-bar {
+  width: 274px !important;
+}
+
+.sidebar-open {
+  width: 250px; /* Adjust the width as needed */
+  transition: width 0.3s ease;
+}
+
+.sidebar-closed {
+  width: 0;
+  transition: width 0.3s ease;
+  overflow-x: hidden;
+}
+
+.toggle-button {
+  position: fixed;
+  left: 400px;
+  top: 10px;
+  z-index: 999;
+}
+.Custombody {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center !important;
+  flex-wrap: wrap;
+  align-items: center!important;
+  position: relative;
+  background-color: #190131;
+
+}
+.Custombody img {
+  border-radius: 15px;
+}
+  .d-container {
+  background-color: #3a0b69;
+  border-radius: 20px;
+  padding: 50px;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  color: white;
+  /* top: 0 !important; */
+  /* left:auto !important; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.goback {
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 451px){
+  .menu-opener {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 450px){
+  .sidebar-open .navbar .container-fluid .mx-auto, .sidebar-open .navbar .container-fluid .navbar-nav, .sidebar-open .home-child, .sidebar-open .movie-div {
+    display: none;
+  }
+  .sidebar-closed .navbar {
+    padding: 10px 5% !important;
+  }
+  .sidebar-closed .navbar .container-fluid .mx-auto {
+    width: 50% !important;
+  }
+  .sidebar-closed .movie-title .avatar-the-way {
+    padding-left: 5% !important;
+    top: 150px;
+  }
+  .sidebar-closed .watch-now-wrapper {
+    left: 5% !important;
+  }
+  .sidebar-closed .popularity-and-rating, .sidebar-closed .sci-fi-movie {
+    left: 5%;
+    width: 100%;
+  }
+  .sidebar-closed .movie-div {
+    left: 3%;
+  }
+  .sidebar-closed .movie-list, .sidebar-closed .movie-list .card4, .sidebar-closed .movie-list .card4 .card4-child, .sidebar-closed .movie-list .card4 .card4-item {
+    width: 180px !important;
+    min-width: 180px;
+  }
+  .sidebar-closed .movie-list, .sidebar-closed .movie-list .card4, .sidebar-closed .movie-list .card4 .card4-child {
+    height: 300px;
+  }
+}

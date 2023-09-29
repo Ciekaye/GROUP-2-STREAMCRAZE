@@ -1,0 +1,90 @@
+.card4-child,
+.card4-item {
+  position: absolute;
+  width: 255px;
+}
+.card4-child {
+  top: 0;
+  left: 1px;
+  border-radius: var(--br-xl);
+  height: 301px;
+  object-fit: cover;
+}
+.card4-item {
+  top: 215px;
+  left: 0;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background: linear-gradient(100.38deg, #fff, rgba(255, 255, 255, 0));
+  backdrop-filter: blur(20px);
+  height: 86px;
+  opacity: 0.95;
+}
+.drama,
+.house-of-gucci {
+  position: absolute;
+  left: 21px;
+}
+.house-of-gucci {
+  top: 231px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.drama {
+  top: 261px;
+  font-size: var(--font-size-sm);
+  line-height: 16px;
+}
+
+.card4 {
+  width: 256px;
+  height: 301px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+  margin-right: 20px; /* Adding spacing between cards */
+}
+
+.horizontal-scrolling-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* for momentum scrolling on iOS */
+  scrollbar-width: thin; /* for modern browsers */
+}
+
+.horizontal-scrolling-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.horizontal-scrolling-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.horizontal-scrolling-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+.card-loading {
+  width: 100%; /* adjust as needed */
+  height: 300px; /* adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* to make it take the space of a card */
+  background-color: #f0f0f0; /* light gray as placeholder */
+}
+
+.loading-spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid #000;
+  width: 40px;
+  height: 40px;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

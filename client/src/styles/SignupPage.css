@@ -1,0 +1,48 @@
+body, html {
+  color: #fff;
+}
+.card {
+  background-color: #1e0939 !important; 
+}  
+.card-body {
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  background-color: #1e0939 !important;
+  margin: none !important;
+}
+
+.btn-signup {
+  background: linear-gradient(45deg, #661794, #890ac0)!important;
+  border: none!important;
+}
+
+
+.login-btn {
+  margin: 10px !important;
+  margin-top: -5px !important;
+  color: white !important;
+  border-color: white !important;
+}
+.login-btn:hover {
+  background: linear-gradient(45deg, #470772, #610ece)!important;
+  border-color:#610ece !important;
+}
+.btn-signup:hover {
+  background: linear-gradient(45deg, #470772, #610ece)!important;
+  
+}
+.alert {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #8b41ec !important;
+  color: white !important;
+  border: none !important;
+}
+
+::placeholder {
+  color: white;
+}
+.bg-dark .bg-secondary::placeholder {
+  color: white;  /* make placeholder text white */
+  opacity: 1;    /* make sure the placeholder is fully opaque */
+}

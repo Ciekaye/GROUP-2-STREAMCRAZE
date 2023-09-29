@@ -1,0 +1,81 @@
+.nav-bar-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 274px;
+  height: 100vh; /* Adjusted from 1024px to 100vh */
+  object-fit: cover;
+}
+.coming-soon,
+.genre,
+.home1,
+.logout {
+  position: absolute;
+  left: 76px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.home1 {
+  top: 175px;
+  font-size: var(--font-size-base);
+}
+.coming-soon,
+.genre,
+.logout {
+  top: 234px;
+  opacity: 0.8;
+}
+.coming-soon {
+  top: 292px;
+}
+.logout {
+  bottom: 40px; /* Adjust as necessary */
+  left: 96px;
+  top: auto;
+}
+.calendar-icon,
+.film-icon,
+.heart-icon5 {
+  position: absolute;
+  top: 234px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.calendar-icon,
+.film-icon {
+  top: 291px;
+}
+.film-icon {
+  top: 175px;
+}
+.log-out-icon {
+  position: absolute;
+  bottom: 33px;  /* Adjust this value to line up with the .logout positioning */
+  left: 47px;
+  width: 41px;
+  height: 41px;
+  opacity: 0.8;
+  top: auto;
+}
+.nav-bar-item {
+  position: absolute;
+  top: 46px;
+  left: 21px;
+  width: 222.8px;
+  height: 92px;
+  object-fit: cover;
+}
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 274px;
+  height: 100vh; /* Adjusted from 1024px to 100vh */
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color);
+  font-family: var(--font-poppins);
+  z-index: 1000; /* This ensures the navbar remains on top */
+}
